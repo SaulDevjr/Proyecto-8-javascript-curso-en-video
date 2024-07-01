@@ -9,17 +9,18 @@
 <body>
     <style>
         body { /*comentario en css*/
-    background-color: #b7d369;
-    color:#6445bb;
+    background-color: #a0b46a;
+    color:#0d0520;
     font: normal 30pt Arial;
 }
 </style>
 
     <script> //comentario en javascript
        var nome = window.prompt('Qual e o teu nome?')
-        document.writeln(` Ola <strong>${nome}<strong/> seu nome tem ${nome.length} letras. <br> `)
-        window.confirm(`Esta correto o seu nome ${nome} ? `)
-        document.write(`Seu nome em maiuscula e ${nome.toUpperCase()}.`)
+        document.write(` Ola <strong>${nome}</strong> seu nome tem <strong>${nome.length}</strong> letras e.<br> `)
+            //este metodo permite colocar tudo numa mesma linha ficando menos codigo
+        window.confirm(`Esta correto o seu nome ${nome}? `)
+        document.write(`Seu nome em maiuscula e <strong>${nome.toUpperCase()}</strong>.`)
         
     </script>
     
