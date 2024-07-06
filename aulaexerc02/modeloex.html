@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="style.css" />
     <title>Verificador de Idade</title>
   </head>
-  <body onload="carregar()">
+  <body>
     <header>
       <h1>Verificador de idade</h1>
     </header>
@@ -14,7 +14,7 @@
       <div>
         <p>
           Ano de nascimento:
-          <input type="number" name="txtano" id="txtnao" min="0" />
+          <input type="number" name="txtano" id="txtano" min="0" />
         </p>
         <p>
           Sexo:
@@ -24,15 +24,14 @@
           <label for="fem">Femenino</label>
         </p>
         <p>
-          <input type="button" value="Verificar" onclick="verificar()">
+          <input type="button" id="boton" value="Verificar" onclick="verificar()" />
         </p>
       </div>
-
-      <div id="res">
-        Prencha os datos acima para ver o resultado..
-      </div>
+      <div id="res">Prencha os datos acima para ver o resultado..</div>
     </section>
     <footer>© Curso em video</footer>
-    <script src="script.js"></script>
+    <script src="script.js">
+     
+    </script>
   </body>
 </html>
